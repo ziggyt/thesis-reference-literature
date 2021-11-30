@@ -1,0 +1,81 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:Attachment rdf:about="#item_1">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1/Mazen_Proposal_Final.docx"/>
+        <dc:title>Mazen_Proposal_Final.docx</dc:title>
+        <link:type>application/vnd.openxmlformats-officedocument.wordprocessingml.document</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ibrahim</foaf:surname>
+                        <foaf:givenName>Yulla</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2"/>
+        <dc:title>Continuous maintenance of an ISO 26262 Safety Case</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>11</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2/Ibrahim - Continuous maintenance of an ISO 26262 Safety Case.pdf"/>
+        <dc:title>Ibrahim - Continuous maintenance of an ISO 26262 Safety Case.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nasir</foaf:surname>
+                        <foaf:givenName>Sarosh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ravi</foaf:surname>
+                        <foaf:givenName>Vamsi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3"/>
+        <dc:title>&lt;Title of your thesis work&gt;</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>11</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_3">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3/Nasir and Ravi - .pdf"/>
+        <dc:title>Nasir and Ravi - .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>Literature from mazen</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1"/>
+        <dcterms:hasPart rdf:resource="#item_4"/>
+        <dcterms:hasPart rdf:resource="#item_5"/>
+    </z:Collection>
+</rdf:RDF>
